@@ -19,7 +19,11 @@ public class Program {
         // TODO code application logic here
         Basic basic = new Basic();
         // basic.createStack();
-        basic.createQueue();
+        //basic.createQueue();
+//        basic.createPriorityQueue();
+        basic.createLinkedList();
+
+    
     }
     
 }
