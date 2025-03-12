@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package algoproject;
+import java.util.Stack;
 
 /**
  *
@@ -16,8 +17,9 @@ public class Program {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Basic Obj = new Basic();
-        Obj.reverseString();
+        Basic basic = new Basic();
+        // basic.createStack();
+        basic.createQueue();
     }
     
 }
